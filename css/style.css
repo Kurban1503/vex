@@ -243,6 +243,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
+
 }
 .second_block{
     display: flex;
@@ -252,15 +253,17 @@ align-items: center;
 }
 /*call*/
 .call{
-   
+       background-attachment: fixed;
+       background-repeat: no-repeat;
+       background-size: cover;
+       color: #fff;
+       position: relative;
 }
 .bg-opacity {
     position: relative;
 }
-.bg-1 {
+.bg-image {
     background-image: url(../img/call-to-action.jpg);
-    background-size: cover;
-    background-attachment: fixed;
     height: 50vh;
 }
 .bg-opacity:before {
@@ -274,6 +277,8 @@ align-items: center;
 }
 .block{
     position: relative;
+    top: 45px;
+    margin: 0 auto;
     z-index: 5;
 }
 .block h2 {
@@ -311,4 +316,54 @@ align-items: center;
 }
  .input-call .btn-main {
     padding: 13px 40px;
+}
+.text-center {
+    text-align: center;
+}
+
+/*team*/
+.command{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ .command-block{
+    padding: 0 10px;
+} 
+.command-block i {
+    font-size: 40px;
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #f9a743;
+}
+ .command-block .author-details {
+    margin-top: 30px;
+}
+.command-block .author-details img {
+    border-radius: 50%;
+    width: 50px;
+}
+.team_btn{
+    padding: 50px;
+}
+/*footer*/
+footer {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 50px 0px;
+    margin-top: 50px;
+}
+.nav_footer{
+    margin-top: 20px;
+}
+footer .footer-logo {
+    color: #555;
+}
+.footer-text {
+    font-weight: 300;
+    font-size: 12px;
+    color: #888;
+    letter-spacing: 3px;
+    margin-top: 15px;
 }
