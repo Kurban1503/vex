@@ -217,11 +217,28 @@ img{
 .feature-list p{
     color: #373a3c;
 }
-
- .context{
-    width: 85%;
-    
+.btn-main{
+    margin-top: 15px;
 }
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+}
+
+
 .subheading{
     color: #3c3c3c;
     text-transform: capitalize;
