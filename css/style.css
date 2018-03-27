@@ -568,10 +568,10 @@ footer .footer-logo {
         justify-content: center;
         align-items: center;
         padding: 5px 0px;
-        margin-left: 0rem;
+        margin-left: 7rem;
     }
     .heading_description {
-        width: 60%;
+        width: 100%;
     }
     .title_heading {
         font-size: 18px;
@@ -587,8 +587,10 @@ footer .footer-logo {
     }
     .btn {
         padding: 12px 15px;
+        margin-left: 1rem;
     }
     .top {
+        margin-left: 6rem;
         margin-top: 45rem;
     }
     .feature_img_center {
