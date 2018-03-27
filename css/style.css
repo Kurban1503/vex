@@ -316,6 +316,7 @@ img {
     background-size: cover;
     color: #fff;
     position: relative;
+    margin-top: 50px;
 }
 
 .bg-opacity {
@@ -413,6 +414,11 @@ img {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: 65px;
+}
+
+.team {
+    margin-top: 80px;
 }
 
 .command-block {
@@ -515,3 +521,79 @@ footer .footer-logo {
     transform: scale(1);
 }
 
+.my_item {
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 920px) {
+    .title_heading {
+        font-size: 40px;
+        padding-bottom: 19px;
+        margin-top: 30px;
+        line-height: 1.2;
+    }
+    .title_desc {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    .btn {
+        padding: 12px 25px;
+    }
+    .top{
+        margin-top: 17rem;
+    }
+    .feature_block_left {
+        padding: 15px;
+        width: 35%;
+    }
+    .wrap_text {
+        width: 30%;
+    }
+    .context p {
+        font-size: 14px;
+    }
+    .subheading {
+     
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .command-block {
+        padding: 0 35px;
+    }
+
+    @media screen and (max-width: 320px) {
+        .title_heading {
+            font-size: 18px;
+            padding-bottom: 19px;
+            margin-top: 30px;
+            line-height: 1.2;
+        }
+        .title_desc {
+            font-size: 14px;
+            line-height: 1.3;
+        }
+        .btn {
+            padding: 12px 15px;
+        }
+        .top{
+            margin-top: 17rem;
+        }
+        .feature_block_left {
+            padding: 15px;
+            width: 35%;
+        }
+        .wrap_text {
+            width: 30%;
+        }
+        .context p {
+            font-size: 14px;
+        }
+        .subheading {
+         
+            font-size: 30px;
+            line-height: 45px;
+        }
+        .command-block {
+            padding: 0 35px;
+        }
+}
