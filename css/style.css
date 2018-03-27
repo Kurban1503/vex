@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-
+@font-face {
+    font-family: 'JosefinSans-Regular';
+    src: url('JosefinSans-Regular.eot') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
 *, *:before, *:after{
 box-sizing: border-box;
 }
@@ -237,7 +242,15 @@ img{
 .context p {
     font-size: 18px;
 }
-
+.wrap_text{
+    width: 52%;
+}
+.left{
+    margin-left: 10%;
+}
+.right{
+    margin-right: 10%;
+}
 .first_block{
 display: flex;
 flex-direction: row;
@@ -290,6 +303,10 @@ align-items: center;
     text-align: center;
     color: #fff;
 }
+.input-call{
+    height: 50px;
+    
+}
 .input-call input {
     height: 50px;
     border-top-left-radius: 40px;
@@ -298,22 +315,35 @@ align-items: center;
     width: 65%;
     padding-left: 15px;
     box-shadow: none;
+    position: relative;
+    z-index: 2;
+    outline: none;
+}
+.input-call button {
+    height: 50px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    border: none;
+    padding-right: 15px;
+    box-shadow: none;
+    margin-right: 2rem;
+    position: relative;
+    z-index: 1;
+    right: 18px;
+    bottom: 1px;
+    outline: none;
+    background-color: #f9a743;
+    box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
+    background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
 }
 .input-call {
     position: relative;
     width: 100%;
     margin-top: 30px;
-    display: table;
-    border-collapse: separate;
 }
-.input-call-btn {
-    position: relative;
-    font-size: 0;
-    width: 1%;
-    white-space: nowrap;
-    vertical-align: middle;
-    white-space: nowrap;
-}
+
  .input-call .btn-main {
     padding: 13px 40px;
 }
