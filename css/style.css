@@ -560,27 +560,49 @@ footer .footer-logo {
     .command-block {
         padding: 0 35px;
     }
-
+}
     @media screen and (max-width: 320px) {
+        .wrap_header_desc {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5px 0px;
+         margin-left: 0rem; 
+        }
+        .heading_description {
+            width: 60%;
+        }
         .title_heading {
             font-size: 18px;
             padding-bottom: 19px;
             margin-top: 30px;
             line-height: 1.2;
+            text-align: center;
         }
         .title_desc {
             font-size: 14px;
             line-height: 1.3;
+            text-align: center;
         }
         .btn {
             padding: 12px 15px;
         }
         .top{
-            margin-top: 17rem;
+            margin-top: 45rem;
+        }
+        .feature_img_center {
+            order: -1;
+        }
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
         }
         .feature_block_left {
             padding: 15px;
-            width: 35%;
+            width: 50%;
         }
         .wrap_text {
             width: 30%;
